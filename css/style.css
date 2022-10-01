@@ -93,6 +93,9 @@ button:hover{
     gap: 2.5rem;
     padding: 0.75rem 0;
 }
+.menu_link.active>a {
+    color: var(--pink) !important;
+}
 .menu>.menu_link{
     padding-top: 0.5rem;
 }
@@ -115,6 +118,14 @@ button:hover{
   gap: 0.8rem ;
   border-radius: 5rem;
     padding: 0.5rem 1rem ;
+}
+.menu_profile:hover{
+    background-color: var(--pink);
+    color: var(--white);
+    transition: all 0.3s ease 0s;
+}
+.menu_profile>p:hover{
+    color: var(--white);
 }
 .menu_profile>p{
     padding-top: 0.2rem;
@@ -223,6 +234,7 @@ cursor: pointer;
 
 .side-menu:checked ~ .mobile{
     max-height: 100%;
+    display: block;
 }
 .side-menu:checked ~ .ham .span {
     background: transparent;
