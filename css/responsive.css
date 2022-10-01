@@ -1,0 +1,630 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif ;
+}
+
+@media screen and (max-width: 576px) {
+    .hamburger{
+        display: block;
+      
+     }
+     .mobile{
+        display: none;
+       
+     }
+    .nav{
+        margin: 2rem;
+
+    }
+    h4{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    h1,h2{
+        font-size: 2rem;
+    }
+    .browse_text {
+        width: 100%;
+    }
+    .browse_bg{
+        padding: 2rem 2.7rem;
+    }
+    .menu{
+        display: none;
+    }
+    .background {
+        margin: 0 2rem;
+    }
+    .popular-bg {
+        padding: 0rem 3.75rem;
+    }
+    .browse_bg {
+       
+        background-size: 63.5rem;
+        padding: 2rem 3.7rem;
+        border-radius: 1rem;
+    }
+    .background {
+        margin: 0 2rem;
+    }
+    .popular-bg {
+        padding: 0rem 3.75rem;
+    }
+    .card{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .card_img>img {
+        width: 100%;
+        border-radius: 1rem;
+    }
+    .popular_card{
+        width: 100%;
+    }
+    .popular_double_card{
+        width: 100%;
+    }
+    .double_card{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .double_img>img {
+        width: 100%;
+    }
+    .double_img {
+        width: 100%;
+    }
+    .logo_input{
+        display: none;
+    }
+    .library_details{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        border: none;
+    }
+    .footer>p{
+        padding: 2rem 10rem;
+    }
+     /* browse */
+     .blocks{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .stream_bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .streamer_profile{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .stream_slider{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .streamer_text{
+        text-align: center;
+    }
+    
+    .streamer_content {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .live_stream_blocks{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    /* details */
+    .details_top_img {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .fortnite_img{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .img>img {
+        width: 100%;
+    }
+    .images>img {
+        width: 100%;
+    }
+   
+    .games_block {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .video>img {
+        width: 100%;
+        
+    }
+    .fortnite_cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .fort_card{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .card_right {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        flex-basis: 100%;
+    }
+    .games_item {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .card_text{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .fort_card {
+        flex-basis: 100%;
+    }
+     /* profile */
+     .profile {
+        margin-bottom: 2rem;
+    }
+    .profile_block {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .profile_left{
+        flex-basis: 100%;
+    }
+    .pro_img>img {
+        width: 100%;
+    }
+    .profile_left{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .pro_text{
+        text-align: center;
+    }
+    .profile_right{
+        flex-basis: 100%;
+    }
+    
+    .clips_block{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+
+
+    }
+    h4{
+        text-align: center;
+    }
+    .hamburger{
+        display: block;
+      
+     }
+     .logo_input{
+        display: none;
+    }
+    .nav{
+        margin: 2rem;
+
+    }
+    .menu{
+        display: none;
+    }
+    .browse_text {
+        width: 100%;
+    }
+    .browse_bg {
+       
+        background-size: 63.5rem;
+        padding: 2rem 3.7rem;
+        border-radius: 1rem;
+    }
+    .background {
+        margin: 0 2rem;
+    }
+    .popular-bg {
+        padding: 0rem 3.75rem;
+    }
+    .card{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .card_img>img {
+        width: 15.625rem;
+        border-radius: 1rem;
+    }
+    .popular_card{
+        width: 15.625rem;
+    }
+    .popular_double_card{
+        width: 15.625rem;
+    }
+    .double_card{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .double_img>img {
+        width: 15.625rem;
+    }
+    .library_details{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        border: none;
+    }
+    .footer>p{
+        padding: 2rem 10rem;
+    }
+      /* browse */
+      .blocks{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .stream_bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .streamer_profile{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .stream_slider{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .streamer_text{
+        text-align: center;
+    }
+    
+    .streamer_content {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .live_stream_blocks{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+     /* details */
+     .details_top_img {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .fortnite_img{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .images>img {
+        width: 100%;
+    }
+   
+    .games_block {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .video>img {
+        width: 100%;
+        
+    }
+    .fortnite_cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .fort_card{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .card_right {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        flex-basis: 100%;
+    }
+    .fort_card {
+        flex-basis: 100%;
+    }
+     /* profile */
+     .profile {
+        margin-bottom: 2rem;
+    }
+    .profile_block {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .profile_left{
+        flex-basis: 100%;
+    }
+    .pro_img>img {
+        width: 100%;
+    }
+    .profile_left{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .pro_text{
+        text-align: center;
+    }
+    .profile_right{
+        flex-basis: 100%;
+    }
+    
+    .clips_block{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+  
+}
+@media (min-width: 767px) and (max-width: 992px) {
+    h4{
+        text-align: center;
+    }
+    .nav{
+        margin: 2rem;
+
+    }
+    .hamburger{
+        display: block;
+      
+     }
+     .logo_input{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .browse_bg {
+       
+        background-size: 43.5rem;
+        padding: 1rem 3.7rem;
+    }
+    .browse_btn {
+        padding-top: 1rem;
+    }
+    .background {
+        margin: 0 2rem;
+    }
+    .popular-bg {
+        padding: 0rem 3.75rem;
+    }
+    .card{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .card_img>img {
+        width: 15.625rem;
+        border-radius: 1rem;
+    }
+    .popular_card{
+        width: 15.625rem;
+    }
+    .popular_double_card{
+        width: 15.625rem;
+    }
+    .double_card{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .double_img>img {
+        width: 15.625rem;
+    }
+    .library_details{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        border: none;
+    }
+    .footer>p{
+        padding: 2rem 10rem;
+    }
+    
+    /* browse */
+    .blocks{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .stream_bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .streamer_profile{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .streamer_text{
+        text-align: center;
+    }
+    .streamer_content {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    /* details */
+    .details_top_img {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .images>img {
+        width: 10rem;
+    }
+    .game_cd_txt {
+        gap: 2.5rem;
+    }
+    .video>img {
+        width: 38rem;
+        
+    }
+    /* profile */
+    .profile {
+        margin-bottom: 2rem;
+    }
+    .profile_block {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .profile_left{
+        flex-basis: 100%;
+    }
+    .profile_left{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .pro_text{
+        text-align: center;
+    }
+    .profile_right{
+        flex-basis: 100%;
+    }
+    
+    .clips_block{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+        width: 100%;
+        margin: 0 auto;
+
+
+    }
+    .logo_input{
+        padding: 0 1rem;
+    }
+    .menu{
+        gap: 1rem;
+    }
+    .browse_bg {
+        background-size: 48.7rem;
+        padding: 2rem 3.7rem;
+    }
+    .browse_btn {
+        padding-top: 1rem;
+    }
+    .popular-bg {
+        padding: 0rem 3.75rem;
+    }
+    .card_img>img {
+        width: 8.625rem;
+        
+    }
+    .popular_card{
+        width: 8.625rem;
+    }
+    .popular_double_card{
+        width: 20.1rem;
+    }
+    .double_img>img {
+        width: 9.625rem;
+    }
+    
+    .library_details{
+        margin: 2rem 0 1rem 0;
+    }
+    .footer>p {
+        padding: 2rem 12rem;
+    }
+    /* browse */
+    .blocks{
+        gap: 1rem;
+    }
+    .stream_slider_img>img {
+        border-radius: 1rem;
+        width: 8rem;
+    }
+    .streamer_content>img{
+        width: 10rem;
+    }
+    .stream_slider_content {
+        width: 9rem;
+    }
+    .stream_slider{
+        gap: 1rem;
+    }
+    .profile_details{
+        gap: 2rem;
+    }
+    /* details */
+    .img>img {
+        width: 16rem;
+       
+    }
+    .video>img {
+        width: 31.5rem;
+       
+    }
+    .images>img {
+        border-radius: 1rem;
+        width: 14rem;
+    }
+    .images>img {
+        width: 14rem;
+    }
+    .game_cd_txt {
+        gap: 8.5rem;
+    }
+    /* profile */
+    .pro_img>img {
+        width: 13rem;
+    }
+    .pro_text>button {
+        margin: 0.3rem;
+       
+    }
+    .clip_img>img {
+        border-radius: 1rem;
+        width: 8.5rem;
+    }
+}

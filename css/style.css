@@ -65,14 +65,26 @@ button:hover{
 .logo_input{
     border-left: 1px solid #27292a;
     padding: 0rem 3rem;
+    position: relative;
 
+}
+.logo_input::before{
+    content:  "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    font-size: 1.09rem;
+    position: absolute;
+    color: #666;
+    left: 4.125rem;
+    top: 0.9rem;
 }
 .logo_input>input{
     border: none;
     background-color: var(--gray);
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 0rem 0.75rem 2.5rem;
     border-radius: 5rem;
     width: 12rem;
+    color: var(--text-color);
 }
 .menu{
     flex-basis: 40rem;
@@ -129,18 +141,20 @@ border: none;
 cursor: pointer;
 }
 .ham{
-    width: 4rem;
+    width: 3rem;
    
 }
 .span{
-    height: 0.1rem;
     width: 100%;
-    margin-top: 0.4rem;
-   padding-top: 0.3rem;
+    margin-top: 0.7rem;
+    padding-top: 0.3rem;
     color: #fff;
     background-color: var(--pink);
    
     
+ }
+ .menu_link{
+    padding: 1rem 0;
  }
  .mobile{
     display: none;
@@ -155,9 +169,9 @@ cursor: pointer;
     align-items: center;
     position: absolute;
     top: -1rem;
-    right: -15rem;
+    right: -6rem;
     text-align: center;
-    width: 45rem;
+    width: 29rem;
  }
  .mobile_nav>.menu_link>a{
     width: 20rem;
@@ -168,6 +182,58 @@ cursor: pointer;
     font-weight: 500;
     margin: 2rem 0 ;
     line-height: 1px;
+}
+
+.logo_input_mob{
+   
+    padding: 2rem 3rem;
+    position: relative;
+
+}
+.logo_input_mob::before{
+    content:  "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    font-size: 1.09rem;
+    position: absolute;
+    color: var(--pink);
+    left: 4.125rem;
+    top: 3rem;
+}
+.logo_input_mob>input{
+    border: none;
+    background-color: var(--white);
+    padding: 0.75rem 0rem 0.75rem 2.5rem;
+    border-radius: 5rem;
+    width: 12rem;
+    color: var(--pink);
+}
+.logo_input_mob>input::placeholder{
+    color: var(--pink);
+}
+.logo_input_mob>input:focus{
+    border: none;
+    outline: none;
+}
+
+/* Toggle menu icon */
+.side-menu {
+    display: none;
+}
+
+.side-menu:checked ~ .mobile{
+    max-height: 100%;
+}
+.side-menu:checked ~ .ham .span {
+    background: transparent;
+}
+.side-menu:checked ~ .ham .span::before {
+    transform: rotate(-45deg);
+    top:0;
+}
+.side-menu:checked ~ .ham .span::after {
+    transform: rotate(45deg);
+    top:0;
 }
 /* -----------------BROWSE ----------------- */
 .background{
@@ -523,6 +589,9 @@ cursor: pointer;
     border-radius: 1rem;
 }
 /* profile */
+.profile_bg_space{
+    margin-bottom: 4rem;
+}
 .profile{
     border-bottom: 1px solid var(--border-color);
 }
