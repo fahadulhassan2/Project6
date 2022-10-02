@@ -93,10 +93,14 @@
     .games_item,
     .card_text,
     .profile_left,
-    .clips_block {
+    .clips_block,
+    .browse_stream {
         flex-direction: column;
         align-items: center;
         gap: 2rem;
+    }
+    .card_heading{
+        text-align: center;
     }
 
     .card_img>img {
@@ -228,6 +232,7 @@
         align-items: center;
         gap: 2rem;
     }
+  
     .hamburger {
         display: block;
 
