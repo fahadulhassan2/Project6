@@ -733,6 +733,7 @@ cursor: pointer;
 }
 .profile_img>img{
     border-radius: 5rem;
+    padding-left: 0.5rem;
 }
 .profile_img::before{
     content: "01";
@@ -742,7 +743,7 @@ cursor: pointer;
     font-family: 'Poppins', sans-serif ;
     position: relative;
     bottom: 1rem;
-    right: 0.4rem;
+    /* right: 0.4rem; */
 }
 
 .user_name{
