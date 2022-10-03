@@ -141,19 +141,12 @@ button:hover{
     object-fit: cover;
 }
 /* mob-nav */
+
+
 .hamburger{
-   display: none;
-    /* margin: 1rem 0; */
-}
-.hamburger{
-   
-background-color: transparent;
-border: none;
-cursor: pointer;
-}
-.ham{
     width: 3rem;
     display: none;
+   
 }
 .span{
     width: 100%;
@@ -161,28 +154,35 @@ cursor: pointer;
     padding-top: 0.3rem;
     color: #fff;
     background-color: var(--pink);
-   
+    
+    
     
  }
  .menu_link{
     padding: 1rem 0;
  }
+ .mob_nav{
+    position: relative;
+ }
  .mobile{
     display: none;
-   background-color: var(--pink);
-    position: relative;
+    background-color: var(--pink);
+    max-width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 5rem;
+    left: -33rem;
+    padding: 0 17rem;
     
  }
  .mobile_nav{
     background-color: var(--pink);
+    transition: all ease-in .5s;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: -1rem;
-    right: 26rem;
-    text-align: center;
-    width: 29rem;
+
+   
  }
  .mobile_nav>.menu_link>a{
     width: 20rem;
@@ -229,27 +229,25 @@ cursor: pointer;
 
 /* Toggle menu icon */
 .side-menu {
-    display: none;
+    display: block;
+    opacity: 0;
+    margin: -1.5rem 0rem 0 1rem;
+    text-indent: -9999px;
+    transition: all ease-in .5s;
 }
 
 
-.side-menu:checked ~ .mobile_nav{
-    max-height: 100%;
-    position: absolute;
-    right: -2rem;
+.side-menu:checked ~ .mobile{
     display: block;
+    
+    transition: all ease-in .5s;
+    
 }
 .side-menu:checked ~ .mobile_nav {
-    background: transparent;
+    padding: 0 15rem;
+    max-width: 100%;
 }
-.side-menu:checked ~ .mobile_nav::before {
-    transform: rotate(-45deg);
-    top:0;
-}
-.side-menu:checked ~ .mobile_nav::after {
-    transform: rotate(45deg);
-    top:0;
-}
+
 /* -----------------BROWSE ----------------- */
 .background{
     background-color: var(--gray);
@@ -264,7 +262,6 @@ cursor: pointer;
     padding: 5rem 3.7rem;
 }
 .browse_text{
-    /* padding-right: 27rem; */
     width: 33rem;
 
 }
@@ -293,7 +290,7 @@ cursor: pointer;
     background-color: var(--white);
     color: var(--pink);
 }
-/* popular */
+/*----------------- Popular----------------- */
 .popular-bg{
     padding: 3.75rem;
     
@@ -386,7 +383,7 @@ cursor: pointer;
     position: relative;
     top: 3rem;
 }
-/* library */
+/*----------------- library----------------- */
 .library_bg{
     padding: 3.75rem;
 }
@@ -449,7 +446,7 @@ cursor: pointer;
 .footer>p>a:hover{
     color: var(--pink);
 }
-/* details */
+/*..................................... details..................................... */
 .details{
     padding: 3.75rem;
 }
@@ -569,9 +566,7 @@ cursor: pointer;
     color: var(--pink);
     text-decoration: none;
 }
-.games_img{
 
-}
 .games_item{
     display: flex;
     justify-content: start;
@@ -585,7 +580,7 @@ cursor: pointer;
 .games_img>img{
     border-radius: 1rem;
 }
-/* profile */
+/*..................................... Profile..................................... */
 .profile_bg_space{
     margin-bottom: 4rem;
 }
@@ -669,7 +664,7 @@ cursor: pointer;
     text-align: center;
     padding: 2rem 0;
 }
-/* stream */
+/*..................................... Stream .....................................*/
 .blocks{
     display: flex;
     justify-content: space-between;
@@ -741,7 +736,6 @@ cursor: pointer;
     font-family: 'Poppins', sans-serif ;
     position: relative;
     bottom: 1rem;
-    /* right: 0.4rem; */
 }
 
 .user_name{

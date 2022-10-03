@@ -13,7 +13,7 @@
     }
 
     .mobile {
-        display: block;
+        display: none;
 
     }
 
@@ -237,6 +237,12 @@
         display: block;
 
     }
+    
+    .mobile{
+        display: none;
+        left: -45rem;
+    padding: 0 23rem;
+    }
     .logo_input {
         display: none;
     }
@@ -347,6 +353,11 @@
     .hamburger {
         display: block;
 
+    }
+    .mobile{
+        display: none;
+        left: -60rem;
+        padding: 0px 30rem;
     }
     .card,
     .double_card,
